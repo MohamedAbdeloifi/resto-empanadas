@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+//---------------------COULEURS----------------------------
+
+$blanc : #FFFFFF;
+$beige : #FDE698;
+$gris : #C4C4C4;
+$marron : #5C2A13;
+$noir : #000000;
+
+//----------------------TYPOGRAPHIES-----------------------
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+$roboto : Roboto;
+$poppins : Poppins;
