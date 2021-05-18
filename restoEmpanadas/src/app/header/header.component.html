@@ -1,1 +1,51 @@
-<p>header works!</p>
+<header>
+    <div class="container">
+        
+        <div class="burgerMenu" [class.span-anim]="check" 
+          
+          (click)='affiche()'>
+            <span class="span"></span>
+            <span class="span"></span>
+            <span class="span"></span>
+        </div>
+        
+
+        <div class="logo">
+            <img class="logoImg" src="../../assets/logo.png" alt="">
+        </div>
+
+        <div class="userPanier">
+
+<i class="fa fa-user" aria-hidden="true"></i>
+<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        </div>
+    </div>
+</header>
+
+<div class="menuInfo" [class.sorti]="checkSortir">
+    <ul>
+        <hr>
+        <li>Acceuil</li>
+        <hr>
+        <li (click)="sousRub()" >Notre carte 
+            <i class="fa fa-arrow-right" aria-hidden="true" style="  font-size: 20px;" *ngIf="checkRubrique == true"></i>
+            <i class="fa fa-arrow-down" aria-hidden="true"  style="  font-size: 20px;" *ngIf="checkRubrique == false"></i>
+            </li>
+
+        <ul class="sous-rubrique" [class.none]="checkRubrique">
+            <li>Pack</li>
+            <li>Empanadas</li>
+            <li>Desserts</li>
+            <li>Boissons</li>
+        </ul>
+        <hr>
+        <li>Commander</li>
+        <hr>
+        <li>Franchise</li>
+        <hr>
+        <li>Ou nous trouver</li>
+    </ul>
+</div>
+
+
+

@@ -11,5 +11,38 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  check:boolean=false;
+  checkRubrique:boolean=true;
+  checkSortir:boolean=false;
+  
+
+
+
+  affiche(){
+   if(this.check== false){
+     this.check=true;
+   }else{
+     this.check=false;
+   }
+
+   if(this.checkSortir== false){
+     this.checkSortir=true;
+   }else{
+     this.checkSortir=false;
+   }
+
+
+  
+  }
+
+  sousRub(){
+     if(this.checkRubrique== false){
+     this.checkRubrique=true;
+   }else{
+     this.checkRubrique=false;
+   }
+    
+  }
+  
 
 }
