@@ -27,10 +27,11 @@ export class HeaderComponent implements OnInit {
 
    if(this.checkSortir== false){
      this.checkSortir=true; 
+      this.checkRubrique=true;
    }else{
      this.checkSortir=false;     
    }
-
+ 
 
   
   }
@@ -41,6 +42,8 @@ export class HeaderComponent implements OnInit {
    }else{
      this.checkRubrique=false;
    }
+
+  
 
 
     
