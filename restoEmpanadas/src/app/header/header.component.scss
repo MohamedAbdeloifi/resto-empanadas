@@ -4,6 +4,7 @@
   header {
     position: sticky;
     top: 0;
+    z-index: 99;
   }
   .container {
     width: 100%;
@@ -106,6 +107,10 @@
     display: block;
   }
 
+  .menu-principal{
+    padding-top: 50px;
+  }
+
   ul li {
     font-size: 20px;
     margin: 15px;
@@ -113,6 +118,7 @@
     cursor: pointer;
     font-weight: bold;
     font-family: $roboto;
+    
   }
   ul li:hover {
     text-decoration: underline;
