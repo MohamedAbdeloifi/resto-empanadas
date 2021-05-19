@@ -1,14 +1,14 @@
 <header>
     <div class="container">
-        
-        <div class="burgerMenu" [class.span-anim]="check" 
-          
+
+        <div class="burgerMenu" [class.span-anim]="check"
+
           (click)='affiche()'>
             <span class="span"></span>
             <span class="span"></span>
             <span class="span"></span>
         </div>
-        
+
 
         <div class="logo">
             <img class="logoImg" src="../../assets/logo.png" alt="">
@@ -22,12 +22,12 @@
     </div>
 </header>
 
-<div class="menuInfo" [class.sorti]="checkSortir">
+<div class="menuInfo" [class.out]="checkSortir">
     <ul>
         <hr>
         <li>Acceuil</li>
         <hr>
-        <li (click)="sousRub()" >Notre carte 
+        <li (click)="sousRub()" >Notre carte
             <i class="fa fa-arrow-right" aria-hidden="true" style="  font-size: 20px;" *ngIf="checkRubrique == true"></i>
             <i class="fa fa-arrow-down" aria-hidden="true"  style="  font-size: 20px;" *ngIf="checkRubrique == false"></i>
             </li>
