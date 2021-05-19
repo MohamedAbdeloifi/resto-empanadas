@@ -26,9 +26,9 @@ export class HeaderComponent implements OnInit {
    }
 
    if(this.checkSortir== false){
-     this.checkSortir=true;
+     this.checkSortir=true; 
    }else{
-     this.checkSortir=false;
+     this.checkSortir=false;     
    }
 
 
@@ -41,6 +41,8 @@ export class HeaderComponent implements OnInit {
    }else{
      this.checkRubrique=false;
    }
+
+
     
   }
   

@@ -1,7 +1,7 @@
 
 @import "../../styles.scss";
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 375px){
 .container {
     width: 100%;
     background-color: $marron;
@@ -12,7 +12,7 @@
 
 }
 .logo{
-     border: 1px solid black;
+     border: 2px solid $marron;
      width: 70px;
      height: 70px;
      border-radius: 50%;
