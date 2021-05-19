@@ -14,25 +14,26 @@ export class HeaderComponent implements OnInit {
   check:boolean=false;
   checkRubrique:boolean=true;
   checkSortir:boolean=false;
-  
+
 
 
 
   affiche(){
-   if(this.check== false){
-     this.check=true;
+   if(this.check == false){
+     this.check = true;
    }else{
-     this.check=false;
+     this.check = false;
    }
 
-   if(this.checkSortir== false){
-     this.checkSortir=true; 
+   if(this.checkSortir == false){
+     this.checkSortir = true;
+     this.checkRubrique = true;
    }else{
-     this.checkSortir=false;     
+     this.checkSortir = false;
    }
 
 
-  
+
   }
 
   sousRub(){
@@ -43,8 +44,8 @@ export class HeaderComponent implements OnInit {
    }
 
 
-    
+
   }
-  
+
 
 }
