@@ -4,13 +4,41 @@
   footer{
     background-color: $marron;
     width: 100%;
+    font-family: $poppins;
+    span{
+    width: 60%;
+    display: flex;
+    background-color: $beige;
+    color: $marron;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    }
+    hr{
+      background-color: $beige;
+      width: 100%;
+    }
+    p{
+      width: 80%;
+      padding: 40px;
+      margin: 0 auto;
+      color: $beige;
+      font-weight: 200;
+      font-size: 11px;
+      display: flex;
+      justify-content: center;
+    }
   }
   .img-container{
     width: 75px;
     height: 75px;
     margin: 0 auto;
     position: relative;
-    top: -25px;
+    top: -35px;
     img{
       width: 100%;
       border-radius: 50%;
@@ -19,6 +47,51 @@
       -ms-border-radius: 50%;
       -o-border-radius: 50%;
       border: 2px solid $marron;
+    }
+  }
+  .footer-menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 20px;
+    ul{
+      width: 45%;
+      margin: 20px 0px;
+      list-style-type: none;
+      text-align: center;
+      color: $beige;
+      h4{
+        font-weight: 400;
+        font-size: 18px;
+      }
+      li{
+        color: $blanc;
+        font-weight: 200;
+        font-size: 12px;
+      }
+    }
+  }
+  .footer-reseaux{
+    display: flex;
+    justify-content: center;
+    .fab{
+      font-size: 30px;
+      color: $marron;
+      background-color: $beige;
+      padding: 5px;
+      margin: 40px 15px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    i.fa-facebook{
+      padding: 0px;
+      font-size: 40px;
+      background-color: $marron;
+      color: $beige;
     }
   }
 }
