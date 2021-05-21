@@ -1,6 +1,6 @@
 @import "../../styles.scss";
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 376px) {
   header {
     position: sticky;
     top: 0;
@@ -95,6 +95,7 @@
     height: 0 auto;
     position: fixed;
     transition: 0.9s ease-in-out;
+    z-index: 98;
    
     display: none;
     hr {
