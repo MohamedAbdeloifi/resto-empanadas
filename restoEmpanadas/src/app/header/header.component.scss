@@ -1,6 +1,6 @@
 @import "../../styles.scss";
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 375px) {
   header {
     position: sticky;
     top: 0;
@@ -14,7 +14,7 @@
     height: 70px;
   }
   .logo {
-    border: 1px solid black;
+    border: 2px solid $marron;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -95,7 +95,7 @@
     height: 0 auto;
     position: fixed;
     transition: 0.9s ease-in-out;
-   
+
     display: none;
     hr {
       background-color: $beige;
@@ -118,7 +118,7 @@
     cursor: pointer;
     font-weight: bold;
     font-family: $roboto;
-    
+
   }
   ul li:hover {
     text-decoration: underline;
