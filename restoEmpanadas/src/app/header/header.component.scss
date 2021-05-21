@@ -14,7 +14,7 @@
     height: 70px;
   }
   .logo {
-    border: 1px solid black;
+    border: 2px solid $marron;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -119,7 +119,7 @@
     cursor: pointer;
     font-weight: bold;
     font-family: $roboto;
-    
+
   }
   ul li:hover {
     text-decoration: underline;
