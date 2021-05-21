@@ -9,7 +9,7 @@
 
 
     <div class="logo">
-      <img class="logoImg" src="../../assets/logo.png" alt="" >
+      <img class="logoImg" src="../../assets/logo.png" alt="">
     </div>
 
     <div class="userPanier">
@@ -23,7 +23,7 @@
 <div class="menuInfo" [class.sortie]="checkSortir">
   <ul class="menu-principal">
     <hr>
-    <li [routerLink]="['/accueil']" routerLinkActive="active">Accueil</li>
+    <li [routerLink]="[ '/accueil']">Accueil</li>
     <hr>
     <li (click)="sousRub()">Notre carte
       <i class="fa fa-chevron-down" aria-hidden="true" style="  font-size: 20px;" *ngIf="checkRubrique == true"></i>
@@ -31,10 +31,17 @@
     </li>
 
     <ul class="sous-rubrique" [class.none]="checkRubrique">
+<<<<<<< HEAD
       <li [routerLink]="['/menu/packs']">Pack</li>
       <li [routerLink]="['/menu/empanadas']">Empanadas</li>
       <li [routerLink]="['/menu/boissons']">Boissons</li>
       <li [routerLink]="['/menu/desserts']">Desserts</li>
+=======
+      <li >Pack</li>
+      <li>Empanadas</li>
+      <li>Desserts</li>
+      <li>Boissons</li>
+>>>>>>> 99f87a45933ec62381bd5a3efed79d9102ae9551
     </ul>
     <hr>
     <li>Commander</li>
