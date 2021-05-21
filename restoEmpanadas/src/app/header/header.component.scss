@@ -94,7 +94,8 @@
     height: 0 auto;
     position: fixed;
     transition: 0.9s ease-in-out;
-
+    z-index: 98;
+   
     display: none;
     hr {
       background-color: $beige;
