@@ -23,7 +23,7 @@
 <div class="menuInfo" [class.sortie]="checkSortir">
   <ul class="menu-principal">
     <hr>
-    <li>Accueil</li>
+    <li [routerLink]="['/accueil']" routerLinkActive="active">Accueil</li>
     <hr>
     <li (click)="sousRub()">Notre carte
       <i class="fa fa-chevron-down" aria-hidden="true" style="  font-size: 20px;" *ngIf="checkRubrique == true"></i>
@@ -31,7 +31,7 @@
     </li>
 
     <ul class="sous-rubrique" [class.none]="checkRubrique">
-      <li>Pack</li>
+      <li [routerLink]="['/menu']">Pack</li>
       <li>Empanadas</li>
       <li>Desserts</li>
       <li>Boissons</li>
