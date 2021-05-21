@@ -1,6 +1,6 @@
 @import "../../styles.scss";
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   header {
     position: sticky;
     top: 0;
@@ -47,7 +47,6 @@
   .burgerMenu {
     width: 50px;
     height: 50px;
-    //    padding-top: 25px;
     display: flex;
     padding: 10px;
     justify-content: space-between;
